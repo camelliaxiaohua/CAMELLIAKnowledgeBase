@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redis/8. Redis 中 Sorted Set（有序集合）类型.md",
-                "mode": "source",
+                "file": "数据结构/3. AVL树.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8. Redis 中 Sorted Set（有序集合）类型"
+              "title": "3. AVL树"
             }
           }
         ],
@@ -206,12 +206,17 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "remotely-save:Remotely Save": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "f0c35e66dfa60027",
   "lastOpenFiles": [
+    "数据结构/1. 平衡二叉树.md",
+    "数据结构/2. 二叉搜索树（BST）.md",
+    "数据结构/3. AVL树.md",
+    "Redis/8. Redis 中 Sorted Set（有序集合）类型.md",
+    "数据结构",
+    "Untitled Folder",
     "AVL树.md",
     "Redis实战篇.md",
     "平衡二叉树.md",
@@ -227,7 +232,6 @@
     "Spring Cloud/1. 过滤器工厂.md",
     "Spring Cloud/Gateway",
     "Spring Cloud/新建文件夹",
-    "Redis/8. Redis 中 Sorted Set（有序集合）类型.md",
     "Spring Cloud/4. 跨域问题.md",
     "Spring Cloud/3. 全局过滤器.md",
     "Spring Cloud/2. 路由断言工厂.md",
@@ -238,18 +242,13 @@
     "Redis/3. Redis 中 Key 的层级格式.md",
     "内容创作/十三号房东.md",
     "内容创作",
-    "多线程/7.6. 虚拟线程.md",
     "Spring Cloud",
-    "多线程/7. 线程池.md",
-    "多线程/6. 线程同步.md",
     "多线程",
     "数据库",
     "未命名 1.canvas",
     "未命名.canvas",
     "rs-test-folder-84_dX3UISKlk9NcTuQ0Fl/rs-test-file-ut05oCs_tQ-yB8aimUPoG",
     "rs-test-folder-vO0XZ2ghkdgfq4cD2kYam",
-    "rs-test-folder-84_dX3UISKlk9NcTuQ0Fl",
-    "rs-test-folder-6PSPrQmv8U5pQMFeF58Yo",
     "guide/cover.jpeg"
   ]
 }
