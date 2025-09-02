@@ -25,14 +25,14 @@
             "id": "6481af6a30fccfd8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "多线程/6. 线程同步.md",
-                "mode": "preview",
-                "source": false
+                "aFile": "未命名 1.base",
+                "bFile": "未命名 1.base",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "6. 线程同步"
+              "icon": "diff",
+              "title": "Diff: 未命名 1.base"
             }
           }
         ],
@@ -197,6 +197,12 @@
   },
   "active": "6481af6a30fccfd8",
   "lastOpenFiles": [
+    "多线程/6. 线程同步.md",
+    "多线程/5. 守护线程.md",
+    "Redis/5. Redis 中 Hash 和 String 的区别.md",
+    "未命名 2.base",
+    "未命名 1.base",
+    "未命名.base",
     "面试/并发/1. Java 线程池原理.md",
     "数据结构/4. 红黑树.md",
     "数据结构/3. AVL树.md",
@@ -224,15 +230,9 @@
     "Spring Cloud/Gateway/4. 跨域问题.md",
     "Spring Cloud/Gateway/5. GateWay问题记录.md",
     "Spring Cloud/Gateway/2. 路由断言工厂.md",
-    "Spring Cloud/1. 过滤器工厂.md",
     "Spring Cloud/Gateway",
     "Spring Cloud/新建文件夹",
-    "Redis/8. Redis 中 Sorted Set（有序集合）类型.md",
-    "Spring Cloud/4. 跨域问题.md",
     "内容创作",
-    "Spring Cloud",
-    "多线程",
-    "数据库",
     "未命名 1.canvas",
     "未命名.canvas",
     "guide/cover.jpeg"
