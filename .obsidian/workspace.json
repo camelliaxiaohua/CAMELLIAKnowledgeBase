@@ -25,14 +25,14 @@
             "id": "6481af6a30fccfd8",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "未命名 1.base",
-                "bFile": "未命名 1.base",
-                "aRef": ""
+                "file": "多线程/6. 线程同步.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 未命名 1.base"
+              "icon": "lucide-file",
+              "title": "6. 线程同步"
             }
           }
         ],
@@ -197,6 +197,8 @@
   },
   "active": "6481af6a30fccfd8",
   "lastOpenFiles": [
+    "多线程/7. 线程池.md",
+    "多线程/7.2. Future.md",
     "多线程/6. 线程同步.md",
     "多线程/5. 守护线程.md",
     "Redis/5. Redis 中 Hash 和 String 的区别.md",
@@ -228,8 +230,6 @@
     "AVL树.md",
     "Spring Cloud/配置中心延迟加载导致的 Bean 初始化问题.md",
     "Spring Cloud/Gateway/4. 跨域问题.md",
-    "Spring Cloud/Gateway/5. GateWay问题记录.md",
-    "Spring Cloud/Gateway/2. 路由断言工厂.md",
     "Spring Cloud/Gateway",
     "Spring Cloud/新建文件夹",
     "内容创作",
