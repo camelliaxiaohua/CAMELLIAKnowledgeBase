@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/并发/1. Java 线程池原理.md",
+                "file": "多线程/6. 线程同步.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1. Java 线程池原理 的大纲"
+              "title": "6. 线程同步 的大纲"
             }
           },
           {
@@ -181,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 334.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,7 +195,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6481af6a30fccfd8",
+  "active": "0bb4e281f3160b2e",
   "lastOpenFiles": [
     "多线程/7. 线程池.md",
     "多线程/7.2. Future.md",
