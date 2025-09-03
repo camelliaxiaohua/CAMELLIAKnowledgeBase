@@ -1,6 +1,7 @@
 {
-  "cssTheme": "Typewriter",
+  "cssTheme": "Things",
   "baseFontSizeAction": false,
   "accentColor": "",
-  "theme": "obsidian"
+  "theme": "system",
+  "nativeMenus": false
 }
