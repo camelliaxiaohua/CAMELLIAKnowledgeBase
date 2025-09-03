@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "Redis实战篇"
             }
-          },
-          {
-            "id": "6481af6a30fccfd8",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Redis实战篇.md",
-                "bFile": "Redis实战篇.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Redis实战篇"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,8 +180,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6481af6a30fccfd8",
+  "active": "8bfb1b0e9e875709",
   "lastOpenFiles": [
+    "Redis实战篇.md",
+    "未命名.base",
+    "未命名 1.base",
+    "未命名 2.base",
     "面试/并发/3. CountDownLatch同步器.md",
     "面试/并发/2. CyclicBarrier同步器.md",
     "面试/并发/1. Java 线程池原理.md",
@@ -206,14 +195,10 @@
     "多线程/7.2. Future.md",
     "多线程/5. 守护线程.md",
     "Redis/5. Redis 中 Hash 和 String 的区别.md",
-    "未命名 2.base",
-    "未命名 1.base",
-    "未命名.base",
     "数据结构/4. 红黑树.md",
     "数据结构/3. AVL树.md",
     "数据结构/2. 二叉搜索树（BST）.md",
     "数据结构/1. 平衡二叉树.md",
-    "Redis实战篇.md",
     "Spring Cloud/Gateway/3. 全局过滤器.md",
     "Spring Cloud/Gateway/1. 过滤器工厂.md",
     "Redis/2. Redis 字符串（String）相关命令.md",
@@ -229,7 +214,6 @@
     "数据结构/AVL树.md",
     "数据结构",
     "二叉搜索树（BST）.md",
-    "Untitled.md",
     "Spring Cloud/Gateway",
     "Spring Cloud/新建文件夹",
     "内容创作",
