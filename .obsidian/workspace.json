@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redis实战篇.md",
-                "mode": "preview",
+                "file": "多线程/6. 线程同步.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Redis实战篇"
+              "title": "6. 线程同步"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/并发/3. CountDownLatch同步器.md",
+                "file": "多线程/6. 线程同步.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "3. CountDownLatch同步器 的大纲"
+              "title": "6. 线程同步 的大纲"
             }
           },
           {
@@ -182,11 +182,11 @@
   },
   "active": "0bb4e281f3160b2e",
   "lastOpenFiles": [
-    "未命名.base",
+    "面试/并发/3. CountDownLatch同步器.md",
     "Redis实战篇.md",
+    "未命名.base",
     "未命名 1.base",
     "未命名 2.base",
-    "面试/并发/3. CountDownLatch同步器.md",
     "面试/并发/2. CyclicBarrier同步器.md",
     "面试/并发/1. Java 线程池原理.md",
     "多线程/7.6. 虚拟线程.md",
