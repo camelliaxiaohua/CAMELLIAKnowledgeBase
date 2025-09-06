@@ -13,11 +13,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "未命名 1.base",
+                "file": "知识数据库.base",
                 "viewName": "表格"
               },
               "icon": "lucide-table",
-              "title": "未命名 1"
+              "title": "知识数据库"
             }
           }
         ]
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名 1.base",
+                "file": "知识数据库.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 1 的大纲"
+              "title": "知识数据库 的大纲"
             }
           },
           {
@@ -179,10 +179,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8bfb1b0e9e875709",
+  "active": "6cac927972d45d51",
   "lastOpenFiles": [
-    "未命名.base",
     "未命名 1.base",
+    "未命名.base",
     "Tips/2. 嵌套映射.md",
     "Tips/1. 对象身份哈希码.md",
     "多线程/7.4. ForkJoin.md",
