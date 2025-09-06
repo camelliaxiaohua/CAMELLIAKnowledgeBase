@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "53c418a90e7f943b",
+    "type": "split",
+    "children": [
+      {
+        "id": "79b93b7e22fee65f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6cac927972d45d51",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Spring Cloud/Gateway/2. 路由断言工厂.md",
+                "bFile": "Spring Cloud/Gateway/2. 路由断言工厂.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 2. 路由断言工厂"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "99b85764b85e992d",
+    "type": "split",
+    "children": [
+      {
+        "id": "10fef66d426489cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8bfb1b0e9e875709",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "ee093cc771c68132",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "6f2606ebbc0f7076",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "4e5384bcc8e7ffa7",
+    "type": "split",
+    "children": [
+      {
+        "id": "f377b526c7df96c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ddd1668f94ee4576",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Spring Cloud/2. 路由断言工厂.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "2. 路由断言工厂 的反向链接列表"
+            }
+          },
+          {
+            "id": "b59a50ef0084d928",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Spring Cloud/2. 路由断言工厂.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "2. 路由断言工厂 的出链列表"
+            }
+          },
+          {
+            "id": "22d5e6650e04a0b2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "f22bc415b1986b37",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "0bb4e281f3160b2e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 320.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "bases:创建新数据库": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "6cac927972d45d51",
+  "lastOpenFiles": [
+    "多线程/7.3. CompletableFuture.md",
+    "知识数据库.base",
+    "2024-05-07.md",
+    "多线程/7.1. ExecutorService接口.md",
+    "多线程/7.6. 虚拟线程.md",
+    "面试/并发/2. CyclicBarrier同步器.md",
+    "面试/并发/1. Java 线程池原理.md",
+    "面试/并发/3. CountDownLatch同步器.md",
+    "多线程/7.2. Future.md",
+    "多线程/7. 线程池.md",
+    "多线程/6. 线程同步.md",
+    "多线程/4. 中断线程.md",
+    "多线程/5. 守护线程.md",
+    "多线程/3. 线程的生命周期.md",
+    "多线程/1. 多线程基础.md",
+    "Redis实战篇.md",
+    "未命名 1.base",
+    "未命名 2.base",
+    "Redis/5. Redis 中 Hash 和 String 的区别.md",
+    "数据结构/4. 红黑树.md",
+    "数据结构/3. AVL树.md",
+    "数据结构/2. 二叉搜索树（BST）.md",
+    "数据结构/1. 平衡二叉树.md",
+    "Spring Cloud/Gateway/3. 全局过滤器.md",
+    "Spring Cloud/Gateway/1. 过滤器工厂.md",
+    "Redis/2. Redis 字符串（String）相关命令.md",
+    "Tips/1. 对象身份哈希码.md",
+    "Tips/Untitled.md",
+    "Tips",
+    "TipS",
+    "Untitled Folder",
+    "数据结构",
+    "Spring Cloud/Gateway",
+    "Spring Cloud/新建文件夹",
+    "内容创作",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "guide/cover.jpeg"
+  ]
+}
