@@ -11,14 +11,14 @@
             "id": "6cac927972d45d51",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Spring Cloud/Gateway/2. 路由断言工厂.md",
-                "bFile": "Spring Cloud/Gateway/2. 路由断言工厂.md",
-                "aRef": ""
+                "file": "多线程/7.4. ForkJoin.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 2. 路由断言工厂"
+              "icon": "lucide-file",
+              "title": "7.4. ForkJoin"
             }
           }
         ]
@@ -142,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "多线程/7.4. ForkJoin.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "7.4. ForkJoin 的大纲"
             }
           },
           {
@@ -169,18 +170,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6cac927972d45d51",
+  "active": "0bb4e281f3160b2e",
   "lastOpenFiles": [
+    "面试/并发/3. CountDownLatch同步器.md",
     "多线程/7.3. CompletableFuture.md",
     "知识数据库.base",
     "2024-05-07.md",
@@ -188,7 +190,6 @@
     "多线程/7.6. 虚拟线程.md",
     "面试/并发/2. CyclicBarrier同步器.md",
     "面试/并发/1. Java 线程池原理.md",
-    "面试/并发/3. CountDownLatch同步器.md",
     "多线程/7.2. Future.md",
     "多线程/7. 线程池.md",
     "多线程/6. 线程同步.md",
