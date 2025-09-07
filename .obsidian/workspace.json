@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tips/4. 字符串函数LEFT.md",
+                "file": "Tips/5. MyBatis比较符安全写法.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. 字符串函数LEFT"
+              "title": "5. MyBatis比较符安全写法"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 204.5
   },
   "right": {
     "id": "4e5384bcc8e7ffa7",
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tips/4. 字符串函数LEFT.md",
+                "file": "Tips/5. MyBatis比较符安全写法.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "4. 字符串函数LEFT 的大纲"
+              "title": "5. MyBatis比较符安全写法 的大纲"
             }
           },
           {
@@ -183,9 +183,10 @@
   "active": "0bb4e281f3160b2e",
   "lastOpenFiles": [
     "Tips/3. 字符串函数CONCAT.md",
+    "Tips/5. MyBatis比较符安全写法.md",
     "Tips/2. 嵌套映射.md",
-    "Tips/1. 对象身份哈希码.md",
     "Tips/4. 字符串函数LEFT.md",
+    "Tips/1. 对象身份哈希码.md",
     "2023-03-08.md",
     "面试/MySQL/1. MySQL 排序机制.md",
     "Redis实战篇.md",
@@ -212,7 +213,6 @@
     "Redis/5. Redis 中 Hash 和 String 的区别.md",
     "数据结构/4. 红黑树.md",
     "数据结构/3. AVL树.md",
-    "数据结构/2. 二叉搜索树（BST）.md",
     "Tips",
     "TipS",
     "Untitled Folder",
