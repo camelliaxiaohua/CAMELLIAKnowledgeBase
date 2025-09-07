@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tips/5. MyBatis比较符安全写法.md",
+                "file": "Tips/6. foreach标签.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. MyBatis比较符安全写法"
+              "title": "6. foreach标签"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tips/5. MyBatis比较符安全写法.md",
+                "file": "Tips/6. foreach标签.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "5. MyBatis比较符安全写法 的大纲"
+              "title": "6. foreach标签 的大纲"
             }
           },
           {
@@ -182,8 +182,9 @@
   },
   "active": "0bb4e281f3160b2e",
   "lastOpenFiles": [
-    "Tips/3. 字符串函数CONCAT.md",
     "Tips/5. MyBatis比较符安全写法.md",
+    "Tips/6. foreach标签.md",
+    "Tips/3. 字符串函数CONCAT.md",
     "Tips/2. 嵌套映射.md",
     "Tips/4. 字符串函数LEFT.md",
     "Tips/1. 对象身份哈希码.md",
@@ -212,7 +213,6 @@
     "未命名 2.base",
     "Redis/5. Redis 中 Hash 和 String 的区别.md",
     "数据结构/4. 红黑树.md",
-    "数据结构/3. AVL树.md",
     "Tips",
     "TipS",
     "Untitled Folder",
