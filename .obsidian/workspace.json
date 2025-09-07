@@ -11,13 +11,14 @@
             "id": "6cac927972d45d51",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "split-diff-view",
               "state": {
-                "file": "知识数据库.base",
-                "viewName": "表格"
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-table",
-              "title": "知识数据库"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -141,13 +142,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识数据库.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "知识数据库 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -181,26 +181,26 @@
   },
   "active": "6cac927972d45d51",
   "lastOpenFiles": [
-    "未命名 1.base",
     "未命名.base",
     "Tips/2. 嵌套映射.md",
+    "面试/并发/3. CountDownLatch同步器.md",
+    "面试/并发/1. Java 线程池原理.md",
+    "面试/并发/2. CyclicBarrier同步器.md",
+    "多线程/1. 多线程基础.md",
+    "知识数据库.base",
+    "未命名 1.base",
     "Tips/1. 对象身份哈希码.md",
     "多线程/7.4. ForkJoin.md",
-    "面试/并发/3. CountDownLatch同步器.md",
     "多线程/7.3. CompletableFuture.md",
-    "知识数据库.base",
     "2024-05-07.md",
     "多线程/7.1. ExecutorService接口.md",
     "多线程/7.6. 虚拟线程.md",
-    "面试/并发/2. CyclicBarrier同步器.md",
-    "面试/并发/1. Java 线程池原理.md",
     "多线程/7.2. Future.md",
     "多线程/7. 线程池.md",
     "多线程/6. 线程同步.md",
     "多线程/4. 中断线程.md",
     "多线程/5. 守护线程.md",
     "多线程/3. 线程的生命周期.md",
-    "多线程/1. 多线程基础.md",
     "Redis实战篇.md",
     "未命名 2.base",
     "Redis/5. Redis 中 Hash 和 String 的区别.md",
