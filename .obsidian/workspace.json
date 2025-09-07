@@ -11,13 +11,15 @@
             "id": "6cac927972d45d51",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "split-diff-view",
               "state": {
-                "file": "知识数据库.base",
-                "viewName": "表格"
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": "HEAD",
+                "bRef": ""
               },
-              "icon": "lucide-table",
-              "title": "知识数据库"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -181,6 +183,8 @@
   },
   "active": "6cac927972d45d51",
   "lastOpenFiles": [
+    "数据结构/1. 平衡二叉树.md",
+    "知识数据库.base",
     "未命名 1.base",
     "未命名.base",
     "Tips/2. 嵌套映射.md",
@@ -188,7 +192,6 @@
     "多线程/7.4. ForkJoin.md",
     "面试/并发/3. CountDownLatch同步器.md",
     "多线程/7.3. CompletableFuture.md",
-    "知识数据库.base",
     "2024-05-07.md",
     "多线程/7.1. ExecutorService接口.md",
     "多线程/7.6. 虚拟线程.md",
@@ -207,7 +210,6 @@
     "数据结构/4. 红黑树.md",
     "数据结构/3. AVL树.md",
     "数据结构/2. 二叉搜索树（BST）.md",
-    "数据结构/1. 平衡二叉树.md",
     "Spring Cloud/Gateway/3. 全局过滤器.md",
     "Spring Cloud/Gateway/1. 过滤器工厂.md",
     "Tips",
