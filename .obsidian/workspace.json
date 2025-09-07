@@ -15,14 +15,42 @@
               "state": {
                 "aFile": ".obsidian/workspace.json",
                 "bFile": ".obsidian/workspace.json",
-                "aRef": "HEAD",
-                "bRef": ""
+                "aRef": ""
               },
               "icon": "diff",
               "title": "Diff: workspace.json"
             }
+          },
+          {
+            "id": "2f03f5ed1abc8a3f",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
+            }
+          },
+          {
+            "id": "4929c734a4b12e47",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -181,8 +209,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6cac927972d45d51",
+  "active": "4929c734a4b12e47",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "面试/MySQL/1. MySQL 排序机制.md",
+    "面试/MySQL",
+    "Tips/6. foreach标签.md",
+    "Tips/5. MyBatis比较符安全写法.md",
+    "Tips/4. 字符串函数LEFT.md",
+    "Tips/3. 字符串函数CONCAT.md",
     "数据结构/1. 平衡二叉树.md",
     "知识数据库.base",
     "未命名 1.base",
@@ -207,17 +242,11 @@
     "Redis实战篇.md",
     "未命名 2.base",
     "Redis/5. Redis 中 Hash 和 String 的区别.md",
-    "数据结构/4. 红黑树.md",
-    "数据结构/3. AVL树.md",
-    "数据结构/2. 二叉搜索树（BST）.md",
-    "Spring Cloud/Gateway/3. 全局过滤器.md",
-    "Spring Cloud/Gateway/1. 过滤器工厂.md",
     "Tips",
     "TipS",
     "Untitled Folder",
     "数据结构",
     "Spring Cloud/Gateway",
-    "Spring Cloud/新建文件夹",
     "未命名 1.canvas",
     "未命名.canvas",
     "guide/cover.jpeg"
