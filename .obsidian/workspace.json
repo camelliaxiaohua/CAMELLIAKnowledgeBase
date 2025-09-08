@@ -11,14 +11,14 @@
             "id": "23baf0eaf3e57c73",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Tips/3. 字符串函数CONCAT.md",
-                "bFile": "Tips/3. 字符串函数CONCAT.md",
-                "aRef": ""
+                "file": "Tips/7. CASE条件表达式.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 3. 字符串函数CONCAT"
+              "icon": "lucide-file",
+              "title": "7. CASE条件表达式"
             }
           }
         ]
@@ -142,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Tips/7. CASE条件表达式.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "7. CASE条件表达式 的大纲"
             }
           },
           {
@@ -179,13 +180,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "23baf0eaf3e57c73",
+  "active": "0bb4e281f3160b2e",
   "lastOpenFiles": [
+    "Tips/5. MyBatis比较符安全写法.md",
+    "Tips/6. foreach标签.md",
+    "Tips/7. CASE条件表达式.md",
     "Tips/2. 嵌套映射.md",
     "Tips/3. 字符串函数CONCAT.md",
     "Tips/4. 字符串函数LEFT.md",
-    "Tips/5. MyBatis比较符安全写法.md",
-    "Tips/6. foreach标签.md",
     "Redis/8. Redis 中 Sorted Set（有序集合）类型.md",
     "conflict-files-obsidian-git.md",
     "面试/MySQL/1. MySQL 排序机制.md",
@@ -210,7 +212,6 @@
     "多线程/5. 守护线程.md",
     "多线程/3. 线程的生命周期.md",
     "多线程/1. 多线程基础.md",
-    "Redis实战篇.md",
     "未命名 2.base",
     "Tips",
     "TipS",
