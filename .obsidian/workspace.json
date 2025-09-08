@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tips/7. CASE条件表达式.md",
+                "file": "Tips/8. choose标签.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7. CASE条件表达式"
+              "title": "8. choose标签"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tips/7. CASE条件表达式.md",
+                "file": "Tips/8. choose标签.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "7. CASE条件表达式 的大纲"
+              "title": "8. choose标签 的大纲"
             }
           },
           {
@@ -182,9 +182,11 @@
   },
   "active": "0bb4e281f3160b2e",
   "lastOpenFiles": [
+    "知识数据库.base",
+    "Tips/8. choose标签.md",
+    "Tips/7. CASE条件表达式.md",
     "Tips/5. MyBatis比较符安全写法.md",
     "Tips/6. foreach标签.md",
-    "Tips/7. CASE条件表达式.md",
     "Tips/2. 嵌套映射.md",
     "Tips/3. 字符串函数CONCAT.md",
     "Tips/4. 字符串函数LEFT.md",
@@ -193,7 +195,6 @@
     "面试/MySQL/1. MySQL 排序机制.md",
     "面试/MySQL",
     "数据结构/1. 平衡二叉树.md",
-    "知识数据库.base",
     "未命名 1.base",
     "未命名.base",
     "Tips/1. 对象身份哈希码.md",
@@ -210,8 +211,6 @@
     "多线程/6. 线程同步.md",
     "多线程/4. 中断线程.md",
     "多线程/5. 守护线程.md",
-    "多线程/3. 线程的生命周期.md",
-    "多线程/1. 多线程基础.md",
     "未命名 2.base",
     "Tips",
     "TipS",
