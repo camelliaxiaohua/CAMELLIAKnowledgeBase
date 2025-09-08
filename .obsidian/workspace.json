@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "79b93b7e22fee65f",
+        "id": "e585a22cf60f48b6",
         "type": "tabs",
         "children": [
           {
-            "id": "6cac927972d45d51",
+            "id": "23baf0eaf3e57c73",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
+                "aFile": "Tips/3. 字符串函数CONCAT.md",
+                "bFile": "Tips/3. 字符串函数CONCAT.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: workspace.json"
-            }
-          },
-          {
-            "id": "2f03f5ed1abc8a3f",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
-            }
-          },
-          {
-            "id": "4929c734a4b12e47",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/app.json",
-                "bFile": ".obsidian/app.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: app.json"
+              "title": "Diff: 3. 字符串函数CONCAT"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,13 +142,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识数据库.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "知识数据库 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -209,21 +179,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4929c734a4b12e47",
+  "active": "23baf0eaf3e57c73",
   "lastOpenFiles": [
+    "Tips/2. 嵌套映射.md",
+    "Tips/3. 字符串函数CONCAT.md",
+    "Tips/4. 字符串函数LEFT.md",
     "Tips/5. MyBatis比较符安全写法.md",
     "Tips/6. foreach标签.md",
     "Redis/8. Redis 中 Sorted Set（有序集合）类型.md",
     "conflict-files-obsidian-git.md",
     "面试/MySQL/1. MySQL 排序机制.md",
     "面试/MySQL",
-    "Tips/4. 字符串函数LEFT.md",
-    "Tips/3. 字符串函数CONCAT.md",
     "数据结构/1. 平衡二叉树.md",
     "知识数据库.base",
     "未命名 1.base",
     "未命名.base",
-    "Tips/2. 嵌套映射.md",
     "Tips/1. 对象身份哈希码.md",
     "多线程/7.4. ForkJoin.md",
     "面试/并发/3. CountDownLatch同步器.md",
