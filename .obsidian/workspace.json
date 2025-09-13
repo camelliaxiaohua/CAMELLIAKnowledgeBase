@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b07eb8101e0b49cc",
+        "id": "577e6ec241ae0a54",
         "type": "tabs",
         "children": [
           {
-            "id": "c83810b2c2ce429c",
+            "id": "f316baa1c724aa42",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Redis实战篇.md",
-                "bFile": "Redis实战篇.md",
+                "aFile": "Tips/13.md",
+                "bFile": "Tips/13.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: Redis实战篇"
+              "title": "Diff: 13"
             }
           }
         ]
@@ -180,8 +180,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c83810b2c2ce429c",
+  "active": "0bb4e281f3160b2e",
   "lastOpenFiles": [
+    "Tips/13.md",
     "Redis实战篇.md",
     "Pasted image 20250911145623.png",
     "代码块/case_1.md",
