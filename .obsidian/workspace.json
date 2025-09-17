@@ -11,14 +11,14 @@
             "id": "f316baa1c724aa42",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Tips/13.md",
-                "bFile": "Tips/13.md",
-                "aRef": ""
+                "file": "Tips/12. DATE_FORMAT日期格式化函数.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 13"
+              "icon": "lucide-file",
+              "title": "12. DATE_FORMAT日期格式化函数"
             }
           }
         ]
@@ -180,9 +180,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0bb4e281f3160b2e",
+  "active": "8bfb1b0e9e875709",
   "lastOpenFiles": [
     "Tips/13.md",
+    "Tips/4. 字符串函数LEFT.md",
+    "Tips/3. 字符串函数CONCAT.md",
+    "Tips/2. 嵌套映射.md",
+    "Tips/1. 对象身份哈希码.md",
+    "Tips/11. MySQL日期函数.md",
+    "Tips/10. EXISTS子查询中的存在性判断.md",
+    "Tips/12. DATE_FORMAT日期格式化函数.md",
+    "Tips/9. GROUP_CONCAT函数.md",
     "Redis实战篇.md",
     "Pasted image 20250911145623.png",
     "代码块/case_1.md",
@@ -192,26 +200,18 @@
     "面试/并发/2. CyclicBarrier同步器.md",
     "面试/并发/1. Java 线程池原理.md",
     "面试/并发/3. CountDownLatch同步器.md",
-    "Tips/12. DATE_FORMAT日期格式化函数.md",
-    "Tips/11. MySQL日期函数.md",
-    "Tips/10. EXISTS子查询中的存在性判断.md",
     "Tips/7. CASE条件表达式.md",
-    "Tips/9. GROUP_CONCAT函数.md",
     "Tips/8. choose标签.md",
     "代码块",
-    "Tips/3. 字符串函数CONCAT.md",
-    "Tips/4. 字符串函数LEFT.md",
     "Tips/5. MyBatis比较符安全写法.md",
     "知识数据库.base",
     "Tips/6. foreach标签.md",
-    "Tips/2. 嵌套映射.md",
     "Redis/8. Redis 中 Sorted Set（有序集合）类型.md",
     "conflict-files-obsidian-git.md",
     "面试/MySQL",
     "数据结构/1. 平衡二叉树.md",
     "未命名 1.base",
     "未命名.base",
-    "Tips/1. 对象身份哈希码.md",
     "多线程/7.4. ForkJoin.md",
     "多线程/7.3. CompletableFuture.md",
     "未命名 2.base",
