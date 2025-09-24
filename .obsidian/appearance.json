@@ -3,5 +3,8 @@
   "baseFontSizeAction": false,
   "accentColor": "",
   "theme": "system",
-  "nativeMenus": false
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "image-local"
+  ]
 }
