@@ -1,22 +1,14 @@
 ---
-title: 分组查询
-category: MySQL
-tags:
-  - MySQL应用
-published: 2022-05-20
-updated: 2022-05-20
+title:
 ---
 ---
 
+## `GROUP BY`
 `GROUP BY` 是用于对查询结果进行分组的子句，通常与聚合函数（如 `SUM`、`COUNT`、`AVG`、`MAX`、`MIN` 等）结合使用，以便对每个分组的数据进行统计或计算。
 
 为 `GROUP BY` 的列创建索引可以加速分组操作，但应避免在大表上使用复杂的多列组。
 
-### 1. 基本语法
-
-+ **数据分组**：将相同值的行归为一组。
-+ **聚合计算**：对每个分组应用聚合函数（如求和、计数、平均值等）。
-
+### **基本语法**
 ```sql
 SELECT column1, aggregate_function(column2)
 FROM table_name
@@ -25,11 +17,15 @@ GROUP BY column1;
 ```
 
 > `GROUP BY` 将数据按指定列（`column1`）的值分组。
+>
 > 每个分组返回一行结果，通常结合聚合函数对分组后的数据计算。
+>
 
+### **核心功能**
++ **数据分组**：将相同值的行归为一组。
++ **聚合计算**：对每个分组应用聚合函数（如求和、计数、平均值等）。
 
-### 2. HAVING 子句
-
+### **HAVING 子句**
 + `WHERE` 用于过滤原始数据，而 `HAVING` 用于过滤分组后的结果。
 
 ```sql
@@ -40,9 +36,9 @@ HAVING avg_salary > 5000;
 ```
 
 > 筛选平均工资大于 5000 的部门
+>
 
-### 3. 注意事项
-
+### **注意事项**
 + **错误用法**
 
 ```sql
@@ -52,34 +48,39 @@ FROM employees
 GROUP BY department;
 ```
 
-> `name` 不在 `GROUP BY` 中，且未使用聚合函数，可能导致多值不确定性问题。所以大部分数据库会报错：**“name not in GROUP BY”**。  有些宽松的数据库（比如 MySQL 的 `ONLY_FULL_GROUP_BY` 关掉时）会“随便挑一个 name”，但这是**非标准行为，结果不可控**。
+> **原因**：`name` 不在 `GROUP BY` 中，且未使用聚合函数，可能导致多值不确定性问题。
+>
 
+:::danger
+**当你使用 **`**GROUP BY**`** 时，查询中的每一列要么需要被聚合，要么需要出现在 **`**GROUP BY**`** 子句中。**
 
-**当你使用 `GROUP BY` 时，查询中的每一列要么需要被聚合，要么需要出现在 `GROUP BY` 子句中。**
+:::
 
 + **正确做法**
 
 ```sql
-SELECT 
-	group_concat(name) as name,
-	department, 
-	MAX(salary) AS max_salary
+SELECT department, MAX(salary) AS max_salary
 FROM employees
 GROUP BY department;
 ```
 
-> `SELECT` 中的非聚合列必须在 `GROUP BY` 中声明，使用聚合函数处理非分组列。
+> `SELECT` 中的非聚合列必须在 `GROUP BY` 中声明。
+>
+> 使用聚合函数处理非分组列。
+>
 
-
-### 4. WITH ROLLUP
-
+### WITH ROLLUP
 ```sql
 SELECT department, job_title, SUM(salary)
 FROM employees
 GROUP BY department, job_title WITH ROLLUP;
 ```
 
-> 生成分组的小计和总计（类似多维分析），结果会包含按 `department` 的小计，以及最终的总计。
+> 生成分组的小计和总计（类似多维分析）：
+>
+
+> 结果会包含按 `department` 的小计，以及最终的总计。
+>
 
 
 
@@ -183,6 +184,14 @@ GROUP BY department;
 ```
 
 ### **性能优化**
+:::danger
 **先过滤，后分组**：尽量先用 `WHERE` 缩小数据集，再用 `HAVING` 过滤分组结果。
 
 **索引优化**：对 `GROUP BY` 的列建立索引可加速分组操作。
+
+:::
+
+
+SQL - DQL-分组查询 1. 语法 SELECT 字段列表 FROM 表名 [WHERE 条件] GROUP BY 分组字段名 [HAVING 分组后过滤条件]; 2. where与having区别 - 执行时机不同: where是分组之前进行过滤,不满足where条件,不参与分组;而having是分组之后对结果进行过滤。 - 判断条件不同: where不能对聚合函数进行判断,而having可以。 注意 - 执行顺序: where > 聚合函数 > having。 - 分组之后,查询的字段一般为聚合函数和分组字段,查询其他字段无任何意义。
+
+
