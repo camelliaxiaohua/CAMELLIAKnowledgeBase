@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4ac8216df386b972",
+        "id": "1596521c7e3ba83c",
         "type": "tabs",
         "children": [
           {
-            "id": "f3368b5d1b25ca28",
+            "id": "b31f1e916440f7f2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "MySQL/8. 外连接.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "8. 外连接"
             }
           }
         ]
@@ -138,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "MySQL/8. 外连接.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "8. 外连接 的大纲"
             }
           },
           {
@@ -177,9 +182,10 @@
   },
   "active": "0bb4e281f3160b2e",
   "lastOpenFiles": [
+    "Tips/16. 外连接退化为内连接.md",
+    "MySQL/8. 外连接.md",
     "Tips/12. DATE_FORMAT日期格式化函数.md",
     "MySQL/5. 分组查询.md",
-    "MySQL/8. 外连接.md",
     "MySQL/7. 内连接.md",
     "MySQL/6. 连接查询.md",
     "MySQL/2. DDL语句.md",
@@ -203,7 +209,6 @@
     "Tips/15. MySQL 小数取舍函数.md",
     "Tips/4. 字符串函数LEFT.md",
     "Tips/13. MySQL 条件与空值判断函数.md",
-    "Tips/11. MySQL日期函数.md",
     "MySQL",
     "Pasted image 20250911145623.png",
     "代码块",
