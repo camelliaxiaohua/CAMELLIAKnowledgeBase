@@ -1,51 +1,59 @@
-name: Sync Non-dot Directories to fuwari
+name: Sync Non-dot Directories to fuwari  # workflow 名称
 
+# 触发条件：当源仓库 main 分支有 push 时触发
 on:
   push:
     branches:
-      - main  # 监听 CAMELLIAKnowledgeBase 的 main 分支
+      - main  # 监听 CAMELLIAKnowledgeBase 仓库的 main 分支
 
 jobs:
   sync:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # 使用最新 Ubuntu 环境运行
+
     steps:
-      # 1. Checkout 源仓库
+      # 1. Checkout 源仓库代码
       - name: Checkout source repo
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # 拉取完整 commit 历史，便于后续操作
 
-      # 2. Clone target repo
+      # 2. Clone 目标仓库到本地
       - name: Clone target repo
         env:
-          TARGET_REPO_TOKEN: ${{ secrets.TARGET_REPO_TOKEN }}
+          TARGET_REPO_TOKEN: ${{ secrets.TARGET_REPO_TOKEN }}  # 使用 secret 存储的访问令牌
         run: |
+          # 克隆目标仓库 fuwari 到本地目录 target-repo
           git clone https://x-access-token:${TARGET_REPO_TOKEN}@github.com/camelliaxiaohua/fuwari.git target-repo
           cd target-repo
-          git checkout main  # 或者目标分支
-          cd ..
+          git checkout main  # 切换到目标仓库的 main 分支（也可改为其它分支）
+          cd ..  # 返回到源仓库根目录
 
-      # 3. Copy 非点开头目录到目标目录
+      # 3. 拷贝非点开头的目录到目标仓库指定目录
       - name: Copy non-dot directories
         run: |
-          cd target-repo/src/content
-          rm -rf posts/*  # 先清空
-          cd ../../../
-          mkdir -p target-repo/src/content/posts
+          cd target-repo/src/content  # 进入目标目录
+          rm -rf posts/*  # 先清空 posts 目录下原有内容
+          cd ../../../   # 返回到源仓库根目录
+          mkdir -p target-repo/src/content/posts  # 确保目标目录存在
+          
+          # 遍历源仓库根目录下的所有非点开头目录
           for dir in */; do
-            if [[ "$dir" != .* ]]; then
-              cp -r "$dir" target-repo/src/content/posts/
+            if [[ "$dir" != .* ]]; then  # 排除 .git, .github 等隐藏目录
+              cp -r "$dir" target-repo/src/content/posts/  # 拷贝到目标目录
             fi
           done
 
-      # 4. Commit & Push
+      # 4. Commit & Push 更新到目标仓库
       - name: Commit and push
         env:
           TARGET_REPO_TOKEN: ${{ secrets.TARGET_REPO_TOKEN }}
         run: |
-          cd target-repo
+          cd target-repo  # 进入目标仓库目录
+          
+          # 配置 Git 用户信息
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/content/posts/*
-          git commit -m "Sync non-dot directories from CAMELLIAKnowledgeBase"
-          git push origin main
+          
+          git add src/content/posts/*  # 添加修改的文件
+          git commit -m "Sync non-dot directories from CAMELLIAKnowledgeBase"  # 提交
+          git push origin main  # 推送到目标仓库 main 分支
