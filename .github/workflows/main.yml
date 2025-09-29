@@ -1,45 +1,45 @@
-name: Sync Non-dot Directories to fuwari  # workflow 名称
+name: Sync Non-dot Directories to fuwari
 
-# 触发条件：当源仓库 main 分支有 push 时触发
 on:
   push:
     branches:
-      - main  # 监听 CAMELLIAKnowledgeBase 仓库的 main 分支
+      - main  # 监听 CAMELLIAKnowledgeBase 的 main 分支
 
 jobs:
   sync:
-    runs-on: ubuntu-latest  # 使用最新 Ubuntu 环境运行
+    runs-on: ubuntu-latest
 
     steps:
       # 1. Checkout 源仓库代码
       - name: Checkout source repo
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # 拉取完整 commit 历史，便于后续操作
+          fetch-depth: 0  # 拉取完整历史
 
-      # 2. Clone 目标仓库到本地
+      # 2. Clone 目标仓库
       - name: Clone target repo
         env:
-          TARGET_REPO_TOKEN: ${{ secrets.TARGET_REPO_TOKEN }}  # 使用 secret 存储的访问令牌
+          TARGET_REPO_TOKEN: ${{ secrets.TARGET_REPO_TOKEN }}
         run: |
-          # 克隆目标仓库 fuwari 到本地目录 target-repo
           git clone https://x-access-token:${TARGET_REPO_TOKEN}@github.com/camelliaxiaohua/fuwari.git target-repo
           cd target-repo
-          git checkout main  # 切换到目标仓库的 main 分支（也可改为其它分支）
-          cd ..  # 返回到源仓库根目录
+          git checkout main
+          cd ..
 
-      # 3. 拷贝非点开头的目录到目标仓库指定目录
-      - name: Copy non-dot directories
+      # 3. 同步非隐藏文件/目录到目标目录
+      - name: Copy non-dot directories safely
         run: |
-          cd target-repo/src/content  # 进入目标目录
-          rm -rf posts/*  # 先清空 posts 目录下原有内容
-          cd ../../../   # 返回到源仓库根目录
-          mkdir -p target-repo/src/content/posts  # 确保目标目录存在
-          
-          # 遍历源仓库根目录下的所有非点开头目录
-          for dir in */; do
-            if [[ "$dir" != .* ]]; then  # 排除 .git, .github 等隐藏目录
-              cp -r "$dir" target-repo/src/content/posts/  # 拷贝到目标目录
+          TARGET_DIR="target-repo/src/content/posts"
+          mkdir -p $TARGET_DIR
+
+          # 先清空目标目录，但保留 .gitkeep 文件
+          find $TARGET_DIR -mindepth 1 ! -name ".gitkeep" -exec rm -rf {} +
+
+          # 遍历源仓库根目录的非隐藏文件/目录
+          for item in *; do
+            # 排除隐藏文件/目录和目标仓库目录
+            if [[ "$item" != .* ]] && [[ "$item" != "target-repo" ]]; then
+              cp -r "$item" "$TARGET_DIR/"
             fi
           done
 
@@ -48,12 +48,15 @@ jobs:
         env:
           TARGET_REPO_TOKEN: ${{ secrets.TARGET_REPO_TOKEN }}
         run: |
-          cd target-repo  # 进入目标仓库目录
-          
-          # 配置 Git 用户信息
+          cd target-repo
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/content/posts/*
           
-          git add src/content/posts/*  # 添加修改的文件
-          git commit -m "Sync non-dot directories from CAMELLIAKnowledgeBase"  # 提交
-          git push origin main  # 推送到目标仓库 main 分支
+          # 如果没有变化，跳过 commit
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Sync non-dot directories from CAMELLIAKnowledgeBase"
+            git push origin main
+          fi
