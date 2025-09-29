@@ -1,0 +1,51 @@
+name: Sync Non-dot Directories to fuwari
+
+on:
+  push:
+    branches:
+      - main  # 监听 CAMELLIAKnowledgeBase 的 main 分支
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Checkout 源仓库
+      - name: Checkout source repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # 2. Clone target repo
+      - name: Clone target repo
+        env:
+          TARGET_REPO_TOKEN: ${{ secrets.TARGET_REPO_TOKEN }}
+        run: |
+          git clone https://x-access-token:${TARGET_REPO_TOKEN}@github.com/camelliaxiaohua/fuwari.git target-repo
+          cd target-repo
+          git checkout main  # 或者目标分支
+          cd ..
+
+      # 3. Copy 非点开头目录到目标目录
+      - name: Copy non-dot directories
+        run: |
+          cd target-repo/src/content
+          rm -rf posts/*  # 先清空
+          cd ../../../
+          mkdir -p target-repo/src/content/posts
+          for dir in */; do
+            if [[ "$dir" != .* ]]; then
+              cp -r "$dir" target-repo/src/content/posts/
+            fi
+          done
+
+      # 4. Commit & Push
+      - name: Commit and push
+        env:
+          TARGET_REPO_TOKEN: ${{ secrets.TARGET_REPO_TOKEN }}
+        run: |
+          cd target-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/content/posts/*
+          git commit -m "Sync non-dot directories from CAMELLIAKnowledgeBase"
+          git push origin main
