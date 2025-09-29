@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tips/17. 索引的合理设置.md",
+                "file": "数据结构/3. AVL树.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "17. 索引的合理设置"
+              "title": "3. AVL树"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:规范",
+                "query": "obsidian://open?vault=CAMELLIAKnowledgeBase&file=%E4%BB%A3%E7%A0%81%E5%9D%97%2Fcase_1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tips/17. 索引的合理设置.md",
+                "file": "数据结构/3. AVL树.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "17. 索引的合理设置 的大纲"
+              "title": "3. AVL树 的大纲"
             }
           },
           {
@@ -182,35 +182,36 @@
   },
   "active": "0bb4e281f3160b2e",
   "lastOpenFiles": [
-    "Tips/18. Commit Message 规范.md",
-    "知识数据库.base",
-    "未命名 2.base",
-    "未命名 1.base",
-    "未命名.base",
-    "Tips/6. foreach标签.md",
-    "Tips/17. 索引的合理设置.md",
-    "MySQL/2. DDL语句.md",
-    "MySQL/3. DML语句.md",
-    "MySQL/1. 数据库概述.md",
-    "MySQL/9. DCL语句.md",
-    "Tips/2. 嵌套映射.md",
-    "Tips/1. 对象身份哈希码.md",
-    "Tips/14. COALESCE.md",
-    "Tips/10. EXISTS子查询中的存在性判断.md",
-    "Tips/13. MySQL 条件与空值判断函数.md",
-    "Tips/16. 外连接退化为内连接.md",
-    "Tips/4. 字符串函数LEFT.md",
-    "Tips/3. 字符串函数CONCAT.md",
-    "Tips/15. MySQL 小数取舍函数.md",
-    "Tips/7. CASE条件表达式.md",
+    "数据结构/2. 二叉搜索树（BST）.md",
+    "数据结构/1. 平衡二叉树.md",
     "面试/MySQL/3. MySQL Change Buffer.md",
     "面试/MySQL/2. 聚簇索引 & 非聚簇索引.md",
     "面试/MySQL/1. MySQL 排序机制.md",
-    "MySQL/8. 外连接.md",
-    "MySQL/7. 内连接.md",
-    "MySQL/6. 连接查询.md",
-    "MySQL/5. 分组查询.md",
-    "MySQL/4. 聚合函数.md",
+    "面试/并发/3. CountDownLatch同步器.md",
+    "面试/并发/2. CyclicBarrier同步器.md",
+    "面试/并发/1. Java 线程池原理.md",
+    "多线程/7.6. 虚拟线程.md",
+    "多线程/7.5. ThreadLocal.md",
+    "多线程/7.4. ForkJoin.md",
+    "多线程/7.3. CompletableFuture.md",
+    "多线程/7.2. Future.md",
+    "多线程/7.1. ExecutorService接口.md",
+    "多线程/7. 线程池.md",
+    "多线程/6. 线程同步.md",
+    "多线程/5. 守护线程.md",
+    "多线程/4. 中断线程.md",
+    "多线程/3. 线程的生命周期.md",
+    "多线程/2. 创建新线程.md",
+    "多线程/1. 多线程基础.md",
+    "数据结构/3. AVL树.md",
+    "数据结构/4. 红黑树.md",
+    "MySQL/1. 数据库概述.md",
+    "MySQL/2. DDL语句.md",
+    "MySQL/3. DML语句.md",
+    "知识数据库.base",
+    "未命名.base",
+    "未命名 2.base",
+    "未命名 1.base",
     "MySQL",
     "Pasted image 20250911145623.png",
     "代码块",
