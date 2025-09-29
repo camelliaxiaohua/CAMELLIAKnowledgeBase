@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tips/18. Commit Message 规范.md",
+                "file": "Tips/17. 索引的合理设置.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "18. Commit Message 规范"
+              "title": "17. 索引的合理设置"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tips/18. Commit Message 规范.md",
+                "file": "Tips/17. 索引的合理设置.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "18. Commit Message 规范 的大纲"
+              "title": "17. 索引的合理设置 的大纲"
             }
           },
           {
@@ -182,26 +182,27 @@
   },
   "active": "0bb4e281f3160b2e",
   "lastOpenFiles": [
+    "Tips/18. Commit Message 规范.md",
+    "知识数据库.base",
     "未命名 2.base",
     "未命名 1.base",
     "未命名.base",
-    "Tips/18. Commit Message 规范.md",
-    "Tips/17. 合理的设置索引.md",
     "Tips/6. foreach标签.md",
+    "Tips/17. 索引的合理设置.md",
+    "MySQL/2. DDL语句.md",
+    "MySQL/3. DML语句.md",
+    "MySQL/1. 数据库概述.md",
+    "MySQL/9. DCL语句.md",
     "Tips/2. 嵌套映射.md",
     "Tips/1. 对象身份哈希码.md",
     "Tips/14. COALESCE.md",
-    "MySQL/9. DCL语句.md",
     "Tips/10. EXISTS子查询中的存在性判断.md",
-    "MySQL/3. DML语句.md",
-    "MySQL/2. DDL语句.md",
     "Tips/13. MySQL 条件与空值判断函数.md",
     "Tips/16. 外连接退化为内连接.md",
     "Tips/4. 字符串函数LEFT.md",
     "Tips/3. 字符串函数CONCAT.md",
     "Tips/15. MySQL 小数取舍函数.md",
     "Tips/7. CASE条件表达式.md",
-    "MySQL/1. 数据库概述.md",
     "面试/MySQL/3. MySQL Change Buffer.md",
     "面试/MySQL/2. 聚簇索引 & 非聚簇索引.md",
     "面试/MySQL/1. MySQL 排序机制.md",
@@ -210,7 +211,6 @@
     "MySQL/6. 连接查询.md",
     "MySQL/5. 分组查询.md",
     "MySQL/4. 聚合函数.md",
-    "知识数据库.base",
     "MySQL",
     "Pasted image 20250911145623.png",
     "代码块",
