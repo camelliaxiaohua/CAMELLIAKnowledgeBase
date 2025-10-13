@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "流程引擎/2. 核心运行时概念.md",
+                "file": "流程引擎/3. BPMN 模型与节点类型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. 核心运行时概念"
+              "title": "3. BPMN 模型与节点类型"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "流程引擎/2. 核心运行时概念.md",
+                "file": "流程引擎/3. BPMN 模型与节点类型.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2. 核心运行时概念 的大纲"
+              "title": "3. BPMN 模型与节点类型 的大纲"
             }
           },
           {
@@ -182,8 +182,9 @@
   },
   "active": "0bb4e281f3160b2e",
   "lastOpenFiles": [
-    "流程引擎/1. 什么是流程引擎.md",
     "流程引擎/2. 核心运行时概念.md",
+    "流程引擎/3. BPMN 模型与节点类型.md",
+    "流程引擎/1. 什么是流程引擎.md",
     "Tips/20. 端到端加密.md",
     "流程引擎/Flowable",
     "流程引擎",
@@ -210,7 +211,6 @@
     "知识数据库.base",
     "Tips/16. 外连接退化为内连接.md",
     "Tips/12. DATE_FORMAT日期格式化函数.md",
-    "Tips/10. EXISTS子查询中的存在性判断.md",
     "未命名.base",
     "未命名 2.base",
     "未命名 1.base",
