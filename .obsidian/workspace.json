@@ -11,14 +11,14 @@
             "id": "b31f1e916440f7f2",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Tips/20. 端到端加密.md",
-                "bFile": "Tips/20. 端到端加密.md",
-                "aRef": ""
+                "file": "流程引擎/2. 核心运行时概念.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 20. 端到端加密"
+              "icon": "lucide-file",
+              "title": "2. 核心运行时概念"
             }
           }
         ]
@@ -142,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "流程引擎/2. 核心运行时概念.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "2. 核心运行时概念 的大纲"
             }
           },
           {
@@ -179,9 +180,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b31f1e916440f7f2",
+  "active": "0bb4e281f3160b2e",
   "lastOpenFiles": [
     "流程引擎/1. 什么是流程引擎.md",
+    "流程引擎/2. 核心运行时概念.md",
     "Tips/20. 端到端加密.md",
     "流程引擎/Flowable",
     "流程引擎",
@@ -209,7 +211,6 @@
     "Tips/16. 外连接退化为内连接.md",
     "Tips/12. DATE_FORMAT日期格式化函数.md",
     "Tips/10. EXISTS子查询中的存在性判断.md",
-    "Tips/9. GROUP_CONCAT函数.md",
     "未命名.base",
     "未命名 2.base",
     "未命名 1.base",
