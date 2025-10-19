@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "流程引擎/3. BPMN 模型与节点类型.md",
-                "mode": "source",
+                "file": "MySQL/15. 外键约束专栏.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. BPMN 模型与节点类型"
+              "title": "15. 外键约束专栏"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "流程引擎/3. BPMN 模型与节点类型.md",
+                "file": "MySQL/15. 外键约束专栏.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "3. BPMN 模型与节点类型 的大纲"
+              "title": "15. 外键约束专栏 的大纲"
             }
           },
           {
@@ -182,8 +182,14 @@
   },
   "active": "0bb4e281f3160b2e",
   "lastOpenFiles": [
-    "流程引擎/2. 核心运行时概念.md",
+    "MySQL/14. 数据库约束.md",
+    "MySQL/15. 外键约束专栏.md",
+    "MySQL/13. 流程控制函数.md",
+    "MySQL/12. 日期函数.md",
+    "流程引擎/4. BPMN 基础建模.md",
     "流程引擎/3. BPMN 模型与节点类型.md",
+    "Tips/17. 索引的合理设置.md",
+    "流程引擎/2. 核心运行时概念.md",
     "流程引擎/1. 什么是流程引擎.md",
     "Tips/20. 端到端加密.md",
     "流程引擎/Flowable",
@@ -194,12 +200,9 @@
     "Tips/19. Payment Intent Pattern（支付意图模式）.md",
     "MySQL/3. DML语句.md",
     "MySQL/2. DDL语句.md",
-    "Tips/17. 索引的合理设置.md",
-    "MySQL/13. 流程控制函数.md",
     "Tips/14. COALESCE.md",
     "Tips/13. MySQL 条件与空值判断函数.md",
     "Tips/7. CASE条件表达式.md",
-    "MySQL/12. 日期函数.md",
     "MySQL/11. 数字函数.md",
     "MySQL/10. 字符串函数.md",
     "数据结构/4. 红黑树.md",
@@ -207,10 +210,7 @@
     "数据结构/1. 平衡二叉树.md",
     "面试/并发/3. CountDownLatch同步器.md",
     "面试/并发/2. CyclicBarrier同步器.md",
-    "面试/并发/1. Java 线程池原理.md",
     "知识数据库.base",
-    "Tips/16. 外连接退化为内连接.md",
-    "Tips/12. DATE_FORMAT日期格式化函数.md",
     "未命名.base",
     "未命名 2.base",
     "未命名 1.base",
