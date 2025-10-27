@@ -25,14 +25,13 @@
             "id": "7a337c951bbe567a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "MySQL/21. 事务.md",
-                "mode": "source",
-                "source": false
+                "file": "知识数据库.base",
+                "viewName": "表格"
               },
-              "icon": "lucide-file",
-              "title": "21. 事务"
+              "icon": "lucide-table",
+              "title": "知识数据库"
             }
           }
         ],
@@ -68,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:MySQL进阶",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +88,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -158,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MySQL/21. 事务.md",
+                "file": "知识数据库.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "21. 事务 的大纲"
+              "title": "知识数据库 的大纲"
             }
           },
           {
@@ -196,42 +194,41 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7a337c951bbe567a",
+  "active": "0bb4e281f3160b2e",
   "lastOpenFiles": [
-    "MySQL/20. ANY、SOME、ALL 操作符.md",
+    "未命名 2.base",
+    "未命名 1.base",
+    "未命名.base",
     "MySQL/21. 事务.md",
+    "MySQL/20. ANY、SOME、ALL 操作符.md",
     "MySQL/19. 子查询.md",
     "MySQL/18. 联合查询.md",
-    "Tips/21. 契约优先的模块解耦设计.md",
+    "MySQL/17. 自连接.md",
+    "MySQL/16. 外连接.md",
+    "MySQL/15. 内连接.md",
+    "MySQL/14. 连接查询.md",
+    "MySQL/13. 多表关系.md",
+    "MySQL/12. 外键约束专栏.md",
+    "MySQL/11. 数据库约束.md",
     "MySQL/10. 流程控制函数.md",
+    "MySQL/9. 日期函数.md",
+    "MySQL/8. 数字函数.md",
+    "MySQL/7. 字符串函数.md",
+    "MySQL/6. DCL语句.md",
+    "MySQL/5. 分组查询.md",
+    "MySQL/4. 聚合函数.md",
+    "MySQL/3. DML语句.md",
+    "MySQL/2. DDL语句.md",
+    "MySQL/1. 数据库概述.md",
+    "Tips/21. 契约优先的模块解耦设计.md",
     "Tips/17. 索引的合理设置.md",
     "Tips/18. Commit Message 规范.md",
     "Tips/16. 外连接退化为内连接.md",
-    "Tips/1. 对象身份哈希码.md",
-    "Tips/20. 端到端加密.md",
-    "Tips/19. Payment Intent Pattern（支付意图模式）.md",
-    "Tips/2. 嵌套映射.md",
-    "Tips/3. 字符串函数CONCAT.md",
-    "Tips/15. MySQL 小数取舍函数.md",
-    "Tips/13. MySQL 条件与空值判断函数.md",
-    "Tips/10. EXISTS子查询中的存在性判断.md",
-    "Tips/7. CASE条件表达式.md",
-    "Tips/6. foreach标签.md",
-    "Tips/5. MyBatis比较符安全写法.md",
-    "数据结构/2. 二叉搜索树（BST）.md",
-    "Java SE/Java 8 新特性/2. Lambda表达式的方法引用.md",
-    "Java SE/Java 8 新特性/1. Lambda表达式.md",
-    "MySQL/9. 日期函数.md",
     "Java SE/Java 8 新特性",
     "Java SE",
-    "MySQL/5. 分组查询.md",
-    "MySQL/6. DCL语句.md",
     "知识数据库.base",
     "流程引擎/Flowable",
     "流程引擎",
-    "未命名.base",
-    "未命名 2.base",
-    "未命名 1.base",
     "MySQL",
     "Pasted image 20250911145623.png",
     "代码块",
