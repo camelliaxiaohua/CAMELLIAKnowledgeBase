@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "MySQL/21. 事务.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:MySQL进阶",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -195,7 +196,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0bb4e281f3160b2e",
+  "active": "7a337c951bbe567a",
   "lastOpenFiles": [
     "MySQL/20. ANY、SOME、ALL 操作符.md",
     "MySQL/21. 事务.md",
