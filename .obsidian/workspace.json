@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/14. 连接查询.md",
+                "file": "MySQL/21. 事务.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14. 连接查询"
+              "title": "21. 事务"
             }
           }
         ],
@@ -197,6 +197,7 @@
   },
   "active": "7a337c951bbe567a",
   "lastOpenFiles": [
+    "MySQL/14. 连接查询.md",
     "MySQL/15. 内连接.md",
     "MySQL/16. 外连接.md",
     "MySQL/18. 联合查询.md",
@@ -208,7 +209,6 @@
     "未命名.base",
     "MySQL/19. 子查询.md",
     "MySQL/17. 自连接.md",
-    "MySQL/14. 连接查询.md",
     "MySQL/13. 多表关系.md",
     "MySQL/12. 外键约束专栏.md",
     "MySQL/11. 数据库约束.md",
