@@ -25,13 +25,14 @@
             "id": "7a337c951bbe567a",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "知识数据库.base",
-                "viewName": "表格"
+                "file": "MySQL/14. 连接查询.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "知识数据库"
+              "icon": "lucide-file",
+              "title": "14. 连接查询"
             }
           }
         ],
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识数据库.base",
+                "file": "MySQL/21. 事务.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "知识数据库 的大纲"
+              "title": "21. 事务 的大纲"
             }
           },
           {
@@ -194,18 +195,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0bb4e281f3160b2e",
+  "active": "7a337c951bbe567a",
   "lastOpenFiles": [
+    "MySQL/15. 内连接.md",
+    "MySQL/16. 外连接.md",
+    "MySQL/18. 联合查询.md",
+    "MySQL/20. ANY、SOME、ALL 操作符.md",
+    "MySQL/21. 事务.md",
+    "知识数据库.base",
     "未命名 2.base",
     "未命名 1.base",
     "未命名.base",
-    "MySQL/21. 事务.md",
-    "MySQL/20. ANY、SOME、ALL 操作符.md",
     "MySQL/19. 子查询.md",
-    "MySQL/18. 联合查询.md",
     "MySQL/17. 自连接.md",
-    "MySQL/16. 外连接.md",
-    "MySQL/15. 内连接.md",
     "MySQL/14. 连接查询.md",
     "MySQL/13. 多表关系.md",
     "MySQL/12. 外键约束专栏.md",
@@ -226,7 +228,6 @@
     "Tips/16. 外连接退化为内连接.md",
     "Java SE/Java 8 新特性",
     "Java SE",
-    "知识数据库.base",
     "流程引擎/Flowable",
     "流程引擎",
     "MySQL",
