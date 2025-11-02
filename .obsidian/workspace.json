@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/4. 索引/1. Btree 树.md",
+                "file": "MySQL/4. 索引/2. B+树.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Btree 树"
+              "title": "2. B+树"
             }
           }
         ],
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MySQL/4. 索引/1. Btree 树.md",
+                "file": "MySQL/4. 索引/2. B+树.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1. Btree 树 的大纲"
+              "title": "2. B+树 的大纲"
             }
           },
           {
@@ -237,14 +237,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0bb4e281f3160b2e",
+  "active": "d5451126d13e549d",
   "lastOpenFiles": [
-    "MySQL/4. 索引/2. B+树.md",
+    "知识数据库.base",
+    "未命名.base",
     "MySQL/4. 索引/1. Btree 树.md",
+    "MySQL/4. 索引/2. B+树.md",
     "面试/MySQL/3. MySQL Change Buffer.md",
     "MySQL/2. 事务/1. 事务.md",
     "MySQL/2. 事务",
-    "未命名.base",
     "MySQL/1. 基础/20. ANY、SOME、ALL 操作符.md",
     "MySQL/1. 基础/19. 子查询.md",
     "MySQL/1. 基础/1. 数据库概述.md",
@@ -263,14 +264,12 @@
     "MySQL/3. 存储引擎/3. Memory存储引擎.md",
     "Tips/1. 对象身份哈希码.md",
     "Redis实战篇.md",
-    "知识数据库.base",
     "Tips/22. 如何在事务中切换数据源.md",
     "MySQL/1. 基础/18. 联合查询.md",
     "分布式搜索/Elasticsearch/3.安装Elasticsearch.md",
     "MySQL/3. 存储引擎",
     "分布式搜索/Elasticsearch/4. IK分词器.md",
     "分布式搜索/Elasticsearch/2. 索引和映射.md",
-    "分布式搜索/Elasticsearch/1. 倒排索引.md",
     "分布式搜索/Elasticsearch",
     "分布式搜索",
     "未命名 2.base",
