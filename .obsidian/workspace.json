@@ -27,16 +27,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "分布式搜索/Elasticsearch/4. IK分词器.md",
+                "file": "MySQL/1. 基础/1. 数据库概述.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. IK分词器"
+              "title": "1. 数据库概述"
+            }
+          },
+          {
+            "id": "464b513cc9cb10f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MySQL/1. 基础/1. 数据库概述.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. 数据库概述"
+            }
+          },
+          {
+            "id": "4cf573f7db2ff550",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MySQL/1. 基础/2. DDL语句.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. DDL语句"
+            }
+          },
+          {
+            "id": "d5451126d13e549d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MySQL/4. 索引/1. Btree 树.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Btree 树"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -157,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "分布式搜索/Elasticsearch/4. IK分词器.md",
+                "file": "MySQL/4. 索引/1. Btree 树.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "4. IK分词器 的大纲"
+              "title": "1. Btree 树 的大纲"
             }
           },
           {
@@ -197,42 +239,42 @@
   },
   "active": "0bb4e281f3160b2e",
   "lastOpenFiles": [
+    "MySQL/4. 索引/2. B+树.md",
+    "MySQL/4. 索引/1. Btree 树.md",
+    "面试/MySQL/3. MySQL Change Buffer.md",
+    "MySQL/2. 事务/1. 事务.md",
+    "MySQL/2. 事务",
+    "未命名.base",
+    "MySQL/1. 基础/20. ANY、SOME、ALL 操作符.md",
+    "MySQL/1. 基础/19. 子查询.md",
+    "MySQL/1. 基础/1. 数据库概述.md",
+    "MySQL/1. 基础/2. DDL语句.md",
+    "数据结构/2. 二叉搜索树（BST）.md",
+    "MySQL/1. 基础",
+    "MySQL/4. 索引",
+    "数据结构/4. 红黑树.md",
+    "数据结构/3. AVL树.md",
+    "数据结构/1. 平衡二叉树.md",
+    "面试/MySQL/2. 聚簇索引 & 非聚簇索引.md",
+    "面试/MySQL/1. MySQL 排序机制.md",
+    "Tips/15. MySQL 小数取舍函数.md",
+    "MySQL/3. 存储引擎/2. MyISAM 存储引擎与索引机制.md",
+    "MySQL/3. 存储引擎/1. InnoDB存储引擎.md",
+    "MySQL/3. 存储引擎/3. Memory存储引擎.md",
+    "Tips/1. 对象身份哈希码.md",
+    "Redis实战篇.md",
+    "知识数据库.base",
+    "Tips/22. 如何在事务中切换数据源.md",
+    "MySQL/1. 基础/18. 联合查询.md",
     "分布式搜索/Elasticsearch/3.安装Elasticsearch.md",
+    "MySQL/3. 存储引擎",
     "分布式搜索/Elasticsearch/4. IK分词器.md",
     "分布式搜索/Elasticsearch/2. 索引和映射.md",
     "分布式搜索/Elasticsearch/1. 倒排索引.md",
-    "MySQL/21. 事务.md",
-    "知识数据库.base",
-    "Redis实战篇.md",
-    "分布式搜索/未命名.md",
     "分布式搜索/Elasticsearch",
     "分布式搜索",
-    "MySQL/14. 连接查询.md",
-    "MySQL/15. 内连接.md",
-    "MySQL/16. 外连接.md",
-    "MySQL/18. 联合查询.md",
-    "MySQL/20. ANY、SOME、ALL 操作符.md",
     "未命名 2.base",
     "未命名 1.base",
-    "未命名.base",
-    "MySQL/19. 子查询.md",
-    "MySQL/17. 自连接.md",
-    "MySQL/13. 多表关系.md",
-    "MySQL/12. 外键约束专栏.md",
-    "MySQL/11. 数据库约束.md",
-    "MySQL/10. 流程控制函数.md",
-    "MySQL/9. 日期函数.md",
-    "MySQL/8. 数字函数.md",
-    "MySQL/7. 字符串函数.md",
-    "MySQL/6. DCL语句.md",
-    "MySQL/5. 分组查询.md",
-    "MySQL/4. 聚合函数.md",
-    "MySQL/3. DML语句.md",
-    "MySQL/2. DDL语句.md",
-    "Java SE/Java 8 新特性",
-    "Java SE",
-    "流程引擎/Flowable",
-    "流程引擎",
     "Pasted image 20250911145623.png",
     "未命名 1.canvas",
     "未命名.canvas",
