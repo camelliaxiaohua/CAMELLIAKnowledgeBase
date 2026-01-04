@@ -70,7 +70,7 @@
               "type": "markdown",
               "state": {
                 "file": "Vue3/1. Vue3核心知识点.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -237,7 +237,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d5451126d13e549d",
+  "active": "0bb4e281f3160b2e",
   "lastOpenFiles": [
     "Tips/1. 对象身份哈希码.md",
     "Vue3/1. Vue3核心知识点.md",
