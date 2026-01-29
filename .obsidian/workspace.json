@@ -11,14 +11,14 @@
             "id": "adde45a42bc8a5d9",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Java SE/Java 8 新特性/1. Lambda表达式.md",
-                "bFile": "Java SE/Java 8 新特性/1. Lambda表达式.md",
-                "aRef": ""
+                "file": "面试/面经.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 1. Lambda表达式"
+              "icon": "lucide-file",
+              "title": "面经"
             }
           }
         ]
@@ -142,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "面试/面经.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "面经 的大纲"
             }
           },
           {
@@ -165,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 591.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,13 +180,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "adde45a42bc8a5d9",
+  "active": "0bb4e281f3160b2e",
   "lastOpenFiles": [
+    "Pasted image 20260129220845.png",
+    "面试/面经.md",
+    "面试/Java基础/如何保证序列化够稳？.md",
+    "面试/Java基础",
+    "未命名.base",
+    "Vue3/1. Vue3核心知识点.md",
+    "Redis实战篇.md",
+    "知识数据库.base",
     "Java SE/Java SE基础/1. Java SE 基础知识.md",
     "Java SE/Java 8 新特性/1. Lambda表达式.md",
     "Java SE/Java 8 新特性/2. Lambda表达式的方法引用.md",
     "Java SE/Java SE基础",
-    "Vue3/1. Vue3核心知识点.md",
     "MySQL/1. 基础/1. 数据库概述.md",
     "Tips/5. MyBatis比较符安全写法.md",
     "Vue3/Untitled.md",
@@ -203,20 +211,13 @@
     "面试/MySQL/2. 聚簇索引 & 非聚簇索引.md",
     "面试/MySQL/3. MySQL Change Buffer.md",
     "面试/MySQL/1. MySQL 排序机制.md",
-    "知识数据库.base",
-    "未命名.base",
     "MySQL/2. 事务/1. 事务.md",
     "MySQL/2. 事务",
     "MySQL/1. 基础/20. ANY、SOME、ALL 操作符.md",
-    "MySQL/1. 基础/19. 子查询.md",
-    "数据结构/2. 二叉搜索树（BST）.md",
     "MySQL/1. 基础",
     "MySQL/4. 索引",
-    "数据结构/4. 红黑树.md",
-    "数据结构/3. AVL树.md",
     "MySQL/3. 存储引擎",
     "分布式搜索/Elasticsearch",
-    "分布式搜索",
     "Pasted image 20250911145623.png",
     "未命名 1.canvas",
     "未命名.canvas",
