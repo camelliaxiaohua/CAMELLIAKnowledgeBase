@@ -11,14 +11,14 @@
             "id": "adde45a42bc8a5d9",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Tips/9. GROUP_CONCAT函数.md",
-                "bFile": "Tips/9. GROUP_CONCAT函数.md",
-                "aRef": ""
+                "file": "面试/面经.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 9. GROUP_CONCAT函数"
+              "icon": "lucide-file",
+              "title": "面经"
             }
           }
         ]
@@ -142,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "面试/面经.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "面经 的大纲"
             }
           },
           {
@@ -179,34 +180,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "adde45a42bc8a5d9",
+  "active": "0bb4e281f3160b2e",
   "lastOpenFiles": [
+    "Tips/23. 分存元算方案.md",
     "面试/面经.md",
-    "面试/Java基础/StringBuilder.md",
+    "面试/Java基础/Java中的不可变类.md",
+    "面试/Java基础/Java为何不支持多重继承.md",
     "面试/MySQL/3. MySQL Change Buffer.md",
+    "Tips/11. MySQL日期函数.md",
+    "Tips/12. DATE_FORMAT日期格式化函数.md",
+    "Tips/13. MySQL 条件与空值判断函数.md",
+    "Tips/16. 外连接退化为内连接.md",
+    "Tips/18. Commit Message 规范.md",
+    "Tips/20. 端到端加密.md",
+    "Tips/19. Payment Intent Pattern（支付意图模式）.md",
+    "Tips/21. 契约优先的模块解耦设计.md",
+    "面试/Java基础/StringBuilder.md",
     "面试/MySQL/2. 聚簇索引 & 非聚簇索引.md",
     "面试/MySQL/1. MySQL 排序机制.md",
     "面试/Java基础/虚方法表的底层原理.md",
-    "面试/Java基础/Java为何不支持多重继承.md",
-    "面试/Java基础/Java中的不可变类.md",
     "面试/Java基础/如何保证序列化够稳？.md",
     "面试/Java基础/基本类型与引用类型在 JVM 存储位置.md",
-    "Tips/19. Payment Intent Pattern（支付意图模式）.md",
-    "Tips/21. 契约优先的模块解耦设计.md",
     "Tips/22. 如何在事务中切换数据源.md",
-    "Tips/20. 端到端加密.md",
-    "Tips/18. Commit Message 规范.md",
-    "Tips/16. 外连接退化为内连接.md",
     "Tips/15. MySQL 小数取舍函数.md",
     "Tips/14. COALESCE.md",
-    "Tips/13. MySQL 条件与空值判断函数.md",
-    "Tips/12. DATE_FORMAT日期格式化函数.md",
-    "Tips/11. MySQL日期函数.md",
     "Tips/10. EXISTS子查询中的存在性判断.md",
     "Tips/9. GROUP_CONCAT函数.md",
     "Tips/7. CASE条件表达式.md",
     "Tips/6. foreach标签.md",
-    "Tips/4. 字符串函数LEFT.md",
     "项目",
     "未命名.base",
     "知识数据库.base",
