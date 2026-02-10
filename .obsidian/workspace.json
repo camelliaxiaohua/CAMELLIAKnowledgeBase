@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "多线程/1. 多线程基础.md",
+                "file": "多线程/3. 线程的生命周期.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. 多线程基础"
+              "title": "3. 线程的生命周期"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "多线程/1. 多线程基础.md",
+                "file": "多线程/3. 线程的生命周期.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1. 多线程基础 的大纲"
+              "title": "3. 线程的生命周期 的大纲"
             }
           },
           {
@@ -180,23 +180,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "adde45a42bc8a5d9",
+  "active": "0bb4e281f3160b2e",
   "lastOpenFiles": [
+    "Java/新特性",
+    "Java/集合",
+    "Java/基础",
     "多线程/1. 多线程基础.md",
+    "多线程/2. 创建新线程.md",
+    "多线程/6. 线程同步.md",
+    "多线程/5. 守护线程.md",
+    "多线程/3. 线程的生命周期.md",
+    "多线程/4. 中断线程.md",
+    "多线程/7.1. ExecutorService接口.md",
+    "多线程/7.3. CompletableFuture.md",
+    "多线程/7.2. Future.md",
+    "多线程/7.6. 虚拟线程.md",
     "Docker/2. Docker和虚拟机的区别.md",
     "Docker/1. 初识Docker容器.md",
-    "多线程/7.6. 虚拟线程.md",
     "多线程/7.5. ThreadLocal.md",
-    "多线程/7.3. CompletableFuture.md",
-    "多线程/7.1. ExecutorService接口.md",
-    "多线程/6. 线程同步.md",
-    "多线程/4. 中断线程.md",
-    "多线程/2. 创建新线程.md",
-    "多线程/5. 守护线程.md",
     "多线程/7. 线程池.md",
-    "多线程/7.2. Future.md",
-    "Java SE/Java 8 新特性/1. Lambda表达式.md",
-    "Java SE/Java SE基础/1. Java SE 基础知识.md",
+    "Java/新特性/1. Lambda表达式.md",
+    "Java/基础/1. Java SE 基础知识.md",
     "数据结构/1. 平衡二叉树.md",
     "流程引擎/2. 核心运行时概念.md",
     "流程引擎/1. 什么是流程引擎.md",
@@ -207,9 +211,7 @@
     "数据结构/2. 二叉搜索树（BST）.md",
     "Pasted image 20260210112912.png",
     "知识数据库.base",
-    "Java SE/Java 8 新特性/2. Lambda表达式的方法引用.md",
-    "面试/Java基础/基本类型与引用类型在 JVM 存储位置.md",
-    "面试/面经.md",
+    "Java/新特性/2. Lambda表达式的方法引用.md",
     "Docker",
     "未命名 1.canvas",
     "未命名.base",
@@ -217,11 +219,9 @@
     "项目",
     "Pasted image 20260129220845.png",
     "面试/Java基础",
-    "Java SE/Java SE基础",
+    "Java/Java SE基础",
     "Vue3",
     "MySQL/2. 事务",
-    "MySQL/1. 基础",
-    "MySQL/4. 索引",
     "Pasted image 20250911145623.png",
     "guide/cover.jpeg"
   ]
